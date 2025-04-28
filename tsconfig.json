@@ -1,0 +1,18 @@
+// tsconfig.json
+{
+    "compilerOptions": {
+      "target": "ES2020",
+      "module": "NodeNext",
+      "moduleResolution": "NodeNext",
+      "lib": ["ES2020", "DOM"],
+      "strict": true,
+      "outDir": "dist",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+  
+      /* ↓ This is what VS Code was yelling about */
+      "types": ["@cloudflare/workers-types", "@types/node"]
+    },
+    "include": ["src"]
+  }
+  

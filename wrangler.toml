@@ -1,0 +1,8 @@
+name               = "seo-snapshot-api"
+main               = "src/index.ts"
+compatibility_date = "2025-04-28"
+compatibility_flags = ["nodejs_compat"]   # ← replaces --node-compat
+
+# 🔥  REMOVE the build block – it causes the loop
+# [build]
+# command = "npm run build"
